@@ -1,0 +1,44 @@
+{
+  "name": "api-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/alphabody/api-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/alphabody/api-graphql/issues"
+  },
+  "homepage": "https://gitlab.com/alphabody/api-graphql#readme",
+  "dependencies": {
+    "apollo-datasource": "^0.7.3",
+    "apollo-server-express": "^2.21.1",
+    "aws-sdk": "^2.923.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dataloader": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "graphql": "^15.5.0",
+    "graphql-type-json": "^0.3.2",
+    "joi": "^17.4.0",
+    "luxon": "^1.26.0",
+    "moment": "^2.29.1",
+    "pg": "^8.5.1",
+    "react-icons": "^4.2.0",
+    "stripe": "^8.142.0",
+    "xss": "^1.0.9"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "supertest": "^6.1.3"
+  }
+}

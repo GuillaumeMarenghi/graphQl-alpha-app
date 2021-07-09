@@ -1,0 +1,24 @@
+%syntax-version=1.0.0
+%project=api-graphql
+%uri=https://gitlab.com/alphabody/api-graphql
+
+01-first-migration 2021-03-09T12:43:22Z guillaume,,, <guillaume@guillaume-VirtualBox> # première migration du proget
+02-first-table 2021-03-09T13:00:20Z guillaume,,, <guillaume@guillaume-VirtualBox> # première table de la bdd
+03-add-tracking-table 2021-03-11T08:31:44Z guillaume,,, <guillaume@guillaume-VirtualBox> # ajout de la table de récupération des tracking
+04-add-customer-archi 2021-03-15T10:31:39Z guillaume,,, <guillaume@guillaume-VirtualBox> # ajout de l'architecture client a la base
+05-add-insert-data 2021-03-16T09:15:41Z guillaume,,, <guillaume@guillaume-VirtualBox> # insertion des données product coach seller
+06-add-column-sexe 2021-04-02T08:25:55Z guillaume,,, <guillaume@guillaume-VirtualBox> # ajout du sexe dans la table prospect
+07-add-column-processor_cus_id 2021-04-09T09:12:47Z guillaume Marenghi <GUIGGS@Sifflezmoi> # ajout colonne avec ref id stripe ou paypal
+08-add-foreign-key-cus-to-traking 2021-04-21T13:04:36Z guillaume Marenghi <GUIGGS@Sifflezmoi> # add customer id to traking
+09-insert-28DC-in-bdd 2021-04-22T12:35:19Z guillaume Marenghi <GUIGGS@Sifflezmoi> # insertion du 28 day challenge
+10-add-column-ab_variation 2021-04-22T16:33:49Z guillaume Marenghi <GUIGGS@Sifflezmoi> # add ab variation on traking
+11-add-password-at-coach 2021-04-28T13:13:55Z guillaume Marenghi <GUIGGS@Sifflezmoi> # ajout du password pour les coachs
+12-add-thuesdayPost-notes-telegram 2021-05-03T12:44:32Z guillaume Marenghi <GUIGGS@Sifflezmoi> # ajout de la table pour le post du jeudi et notes et colonne telegram dans les client
+13 2021-05-07T12:08:47Z guillaume Marenghi <GUIGGS@Sifflezmoi> # add coach and thursday femme
+14-add-infos-thursday 2021-05-27T08:50:04Z guillaume Marenghi <GUIGGS@Sifflezmoi> # ajout des infos entrainement dans le thursday
+15-add-last-date-connected 2021-06-04T07:45:05Z guillaume Marenghi <GUIGGS@Sifflezmoi> # ajout de la derniere date de connection
+16-rebuild-thursday-part-1 2021-06-07T08:17:34Z guillaume Marenghi <GUIGGS@Sifflezmoi> # rebuild des thursday pdc et salle
+17-add-seller-details-and-begining-date 2021-06-07T13:46:11Z guillaume Marenghi <GUIGGS@Sifflezmoi> # ajout des details dans la table seller plus date debut dans sale
+18-add-constraint-unique-index-email 2021-06-17T14:06:54Z guillaume Marenghi <GUIGGS@Sifflezmoi> # ajout de la contrainte unique et de l'index sur email csutomer
+19-add-price-schema 2021-06-23T09:02:08Z guillaume Marenghi <GUIGGS@Sifflezmoi> # ajout du schema de prix
+20-add-liaison-prospect-customer 2021-06-28T10:03:24Z guillaume Marenghi <GUIGGS@Sifflezmoi> # ajout de la liaison prospect customer et date dans traking
